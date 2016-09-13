@@ -1,0 +1,159 @@
+body{
+  padding-top: 120px;
+}
+.navbar-custom {
+  background-color: white;
+  border-color: #e7e7e7;
+  padding-right: 6%;
+  padding-left: 6%;
+  padding-top: 65px;
+}
+.navbar-custom .navbar-brand {
+  color: #777;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #777;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #777;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #e7e7e7;
+  background-color: white;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.navbar-custom .navbar-link {
+  color: #777;
+}
+.navbar-custom .navbar-link:hover {
+  color: #333;
+}
+.navbar-custom .btn-link {
+  color: #777;
+}
+.navbar-custom .btn-link:hover,
+.navbar-custom .btn-link:focus {
+  color: #333;
+}
+/* 抽屜(漢堡) 樣式 */
+.navbar-toggle {
+  margin-right: 0;
+}
+
+
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  -webkit-transition: background .8s; /* For Safari 3.1 to 6.0 */
+  transition: background .8s;
+  width: 100%;
+}
+.btn-default img{
+  width: 100%;
+}
+
+
+.btn-default:focus,
+.btn-default.focus {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #8c8c8c;
+}
+.btn-default:hover {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+
+
+
+      /* header-LOGO */
+        #logo {
+            z-index: 1031; /* bootstrap.css: .navbar-fixed-top{z-index:1030;}  */
+            color:white;
+            position: fixed;
+            top: 10px;
+            left: 6%;
+        }
+/* droupdown選單滑入即顯示*限定在大螢幕 */
+@media screen and (min-width:1024px){
+  .dropdown-menu li:hover .sub-menu {visibility: visible;}
+  .dropdown:hover .dropdown-menu {display: block;}
+}   
+
+/* card-context-popup卡片彈出視窗之CSS */
+            #card-context-popup a{
+                padding: 0;
+            }
+            #card-context-popup .row .img {
+                margin:0 15px 0 0;
+            }
+            #card-context-popup .row div {
+                float:left;
+            }
+
+            .modal-footer {
+              padding: 10px;
+            }
